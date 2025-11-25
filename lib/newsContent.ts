@@ -235,3 +235,6 @@ export const convertToNewsCard = (content: NewsContent): NewsCard => {
 export const getAllNewsCards = (): NewsCard[] => {
   return Object.values(newsArticles).map(convertToNewsCard);
 };
+
+
+

@@ -1,0 +1,147 @@
+.container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding-bottom: 80px;
+}
+
+.header {
+  background-color: #fff;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4CAF50;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.backButton:hover {
+  opacity: 0.8;
+}
+
+.titleContainer {
+  margin-top: 12px;
+}
+
+.headerTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+
+.timerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.timerLabel {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.timerText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4CAF50;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.contentWrapper {
+  padding: 20px;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4CAF50;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 16px 0;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #333;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  height: 40px;
+}
+
+.buttonContainer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.exitButton {
+  background-color: #4CAF50;
+  padding: 12px 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: block;
+}
+
+.exitButton:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contentWrapper {
+    padding: 40px;
+  }
+}
+
+
+

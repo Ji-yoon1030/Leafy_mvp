@@ -1,27 +1,22 @@
 {
-  "name": "leafy_test",
+  "name": "leafy_mvp",
   "version": "1.0.0",
-  "main": "index.ts",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build": "expo export -p web",
-    "build:web": "expo export -p web"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@expo/metro-runtime": "^6.1.2",
-    "expo": "~54.0.22",
-    "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-dom": "^19.2.0",
-    "react-native": "0.81.5",
-    "react-native-web": "^0.21.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.4"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
-    "typescript": "~5.9.2"
-  },
-  "private": true
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
 }
